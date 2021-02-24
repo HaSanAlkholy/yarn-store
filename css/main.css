@@ -372,6 +372,12 @@ ul {
   margin-inline-start: 30px;
 }
 
+@media (max-width: 576px) {
+  .s-head {
+    margin-bottom: 20px;
+  }
+}
+
 .product {
   height: 100%;
   border-radius: 2px;
@@ -528,6 +534,7 @@ ul {
 
 @media (max-width: 576px) {
   .banner-container.banner3 .banner {
+    margin: 0 auto 15px;
     width: 100%;
     margin: 0 auto 30px;
   }
@@ -540,6 +547,7 @@ ul {
 
 @media (max-width: 576px) {
   .banner-container.banner2 .banner {
+    margin: 0 auto 15px;
     width: 100%;
     margin: 0 auto 30px;
   }
@@ -668,11 +676,13 @@ nav .nav-bottom .nav-icons .nava-btn {
     justify-content: flex-end;
     margin-inline-end: 0;
   }
+  nav .nav-bottom .nav-icons .nav-icon {
+    margin-inline-start: 20px;
+  }
   nav .nav-bottom .nav-icons .nava-btn {
     display: block;
   }
   nav .nav-bottom .nav-icons .favourite,
-  nav .nav-bottom .nav-icons .user,
   nav .nav-bottom .nav-icons .nav-lang {
     display: none;
   }
